@@ -1,0 +1,109 @@
+#root { 
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  /* text-align: center; */
+}
+
+table,
+form {
+  width: 50em;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+table {
+  background-color: #ffd196;
+}
+
+form {
+  padding: 10px auto;
+}
+
+#table-title {
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.col-title {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.col-table>td {
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 5px 15px;
+}
+
+.col-table>#col-name,
+.col-table>#col-desc,
+.col-table>#col-price {
+  border-bottom: #FFF solid 1px;
+}
+
+.total>td {
+  font-weight: 600;
+  font-size: 28px;
+  text-align: right;
+}
+
+.col-price {
+  text-align: right;
+  font-size: 18px;
+}
+
+.btn-to-right {
+  width: 10%;
+  text-align: right;
+  padding: 5px 1em;
+}
+
+td>button {
+  background-color: #db2911;
+  color: #FFF;
+  font-weight: bolder;
+}
+
+td>button:hover {
+  background-color: #F2071F;
+  color: #FFF;
+  font-weight: bolder;
+  border: solid 1px #F2071F;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+legend {
+  font-size: 24px;
+  font-weight: 500;
+  align-self: center;
+}
+
+.form-entries {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+form label {
+  text-align: left;
+}
+
+form input,
+form textarea {
+  width: 35em;
+}
+
+form button {
+  background-color: #059742;
+  color: #FFF;
+  width: 10em;
+  align-self: center;
+}
